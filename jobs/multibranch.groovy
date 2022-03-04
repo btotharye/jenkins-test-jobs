@@ -4,7 +4,7 @@ multibranchPipelineJob('python-example') {
             id('123456789') // IMPORTANT: use a constant and unique identifier
             remote('https://github.com/btotharye/python-jenkins-test.git')
             credentialsId('')
-            includes('JENKINS-*')
+            includes('*')
         }
     }
     orphanedItemStrategy {
