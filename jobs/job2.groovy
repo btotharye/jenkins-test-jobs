@@ -1,5 +1,5 @@
-job('Job #2') {
+job('Job 2') {
   steps {
-    shell('echo "This is Job #2"')
+    shell('echo "This is Job Number 2"')
   }
 }
